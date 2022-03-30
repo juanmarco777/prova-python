@@ -98,7 +98,7 @@ testadas na mesma ordem que aparecem no programa original.
 
 ## Questão 5 (for=2, while=2, loops=3)
 
-O código abaixo calcula uma soma de valores que por um acaso é uma aproximação para a função `ln(1 - x)`. 
+O código abaixo calcula uma soma de valores que por um acaso é uma aproximação para a função `ln(1 - x)` para valores de x entre -1 e 1. 
 
 ```python
 x = float(input("x: "))
@@ -106,7 +106,7 @@ n = 0
 resultado = 0.0
 termo = 1.0
 
-while x < 5:
+while n < 5:
     n = n + 1
     termo = termo * x
     resultado = resultado + termo / n

@@ -8,7 +8,7 @@ n = 0
 resultado = 0.0
 termo = 1.0
 
-while x < 5:
+while n < 5:
     n = n + 1
     termo = termo * x
     resultado = resultado + termo / n
